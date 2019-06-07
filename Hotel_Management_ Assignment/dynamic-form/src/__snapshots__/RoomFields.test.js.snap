@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoomFields snapshot test with selected: false 1`] = `
+<div
+  className="sc-bxivhb gzioTq"
+>
+  <div
+    className="header sc-ifAKCX fnpglF"
+  >
+    <input
+      checked={false}
+      className="sc-EHOje fLSRiA"
+      name="roomSelected"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <h4>
+      Room 
+    </h4>
+  </div>
+  <div
+    className="sc-bZQynM bFZbwp"
+  >
+    <div
+      className="sc-gzVnrw bfFLzg"
+    >
+      <label>
+        Adults (18+)
+      </label>
+      <select
+        className="sc-htoDjs fxfdfZ"
+        disabled={true}
+        name="numberOfAdults"
+        onChange={[Function]}
+        value={2}
+      >
+        <option
+          value={1}
+        >
+          1
+        </option>
+        <option
+          value={2}
+        >
+          2
+        </option>
+      </select>
+    </div>
+    <div
+      className="sc-gzVnrw bfFLzg"
+    >
+      <label>
+        Children (0-17)
+      </label>
+      <select
+        className="sc-htoDjs fxfdfZ"
+        disabled={true}
+        name="numberOfChilds"
+        onChange={[Function]}
+        value={2}
+      >
+        <option
+          value={0}
+        >
+          0
+        </option>
+        <option
+          value={1}
+        >
+          1
+        </option>
+        <option
+          value={2}
+        >
+          2
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RoomFields snapshot test with selected: true 1`] = `
+<div
+  className="sc-bxivhb gzioTq"
+>
+  <div
+    className="header sc-ifAKCX fnpglF"
+  >
+    <input
+      checked={true}
+      className="sc-EHOje fLSRiA"
+      name="roomSelected"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <h4>
+      Room 
+    </h4>
+  </div>
+  <div
+    className="sc-bZQynM fmpwfT"
+  >
+    <div
+      className="sc-gzVnrw bfFLzg"
+    >
+      <label>
+        Adults (18+)
+      </label>
+      <select
+        className="sc-htoDjs fxfdfZ"
+        disabled={false}
+        name="numberOfAdults"
+        onChange={[Function]}
+        value={2}
+      >
+        <option
+          value={1}
+        >
+          1
+        </option>
+        <option
+          value={2}
+        >
+          2
+        </option>
+      </select>
+    </div>
+    <div
+      className="sc-gzVnrw bfFLzg"
+    >
+      <label>
+        Children (0-17)
+      </label>
+      <select
+        className="sc-htoDjs fxfdfZ"
+        disabled={false}
+        name="numberOfChilds"
+        onChange={[Function]}
+        value={2}
+      >
+        <option
+          value={0}
+        >
+          0
+        </option>
+        <option
+          value={1}
+        >
+          1
+        </option>
+        <option
+          value={2}
+        >
+          2
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;
